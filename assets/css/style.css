@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.work_sans_font {
+    font-family: "Work Sans", sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.left_nav_link a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.right_nav_link,
+.left_nav_link {
+    margin: 35px 0px;
+}
+
+.right_nav_link ul {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 45px;
+    list-style-type: none;
+}
+
+.left_nav_link a {
+    color: rgba(255, 255, 255, 0.5);
+    transition-duration: 0.3s;
+}
+
+.right_links li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    transition-duration: 0.3s;
+    font-size: 18px;
+}
+
+.left_nav_link a:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.right_links li a:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6)),
+        url("/assets/images/bg_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header_box span {
+    font-size: 43px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.header_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.header_box p {
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 20px 0px;
+}
+
+.header_box p a {
+    text-decoration: underline;
+    text-decoration-color: #6dc234;
+    color: #fff;
+}
+
+.link_button {
+    background-color: #6dc234;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 22px 35px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    transition-duration: 0.3s;
+}
+
+.link_button:hover {
+    border-color: #569a29;
+    background: #569a29;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 22px 35px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+}
